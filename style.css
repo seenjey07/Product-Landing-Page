@@ -1,0 +1,133 @@
+html,
+body {
+  padding: 30px 10px 0;
+}
+
+#header {
+  padding: 10px;
+}
+
+#header-img {
+  width: 27%;
+  display: flex;
+}
+
+#Shin {
+  text-align: center;
+}
+
+#Direction {
+  text-align: center;
+}
+
+.RamyunClass {
+  background-image: url(/Pictures/Nongshim\ Ramyun.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 250px;
+  height: 245px;
+  margin: auto;
+}
+
+.RamyunClass:hover {
+  background-image: url(Pictures/CookedRamyun.png);
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fb6565;
+  z-index: 100;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav-link {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#CenterVideo {
+  text-align: center;
+}
+
+#AboutSection,
+#HowTo,
+#NutritionFacts {
+  border-top: double 5px red;
+  border-bottom: double 5px red;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Section {
+  padding-top: 72px;
+}
+
+#AboutText {
+  text-align: center;
+  margin: 10px;
+}
+
+#StoveTop,
+#Microwave {
+  text-align: center;
+}
+
+#StoveImg {
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#SectionOne,
+#SectionTwo {
+  display: flex;
+  flex-wrap: nowrap;
+  border-left: solid red;
+  border-right: solid red;
+  justify-content: space-around;
+}
+
+#MicrowaveImg {
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#NutritionImage {
+  display: block;
+  margin: auto;
+}
+
+#FormHeader,
+#form {
+  text-align: center;
+}
+
+#email {
+  justify-self: center;
+  background-color: lightgoldenrodyellow;
+  border: solid #f60404;
+}
+
+@media screen and (max-width: 600px) {
+  #header-img {
+    width: 150px;
+  }
+}

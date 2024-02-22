@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page - Shin Ramyun</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="Pictures/NongshimLogo.png"><br>
+    <h2 id="Shin">Shin Ramyun</h2>
+
+    <div class="RamyunClass">
+      <div class="Ramyun"></div>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#About">About</a></li>
+          <li class="nav-link"><a href="#How">How to prepare</a></li>
+          <li class="nav-link"><a href="#NutriFacts">Nutrition Facts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="About" class="Section">
+    <h2 id="AboutSection">About</h2><br>
+    <p id="AboutText">Nongshim products are among the top selling Ramyun products in the world, holding the top spot for
+      ramyun in numerous countries. The reasons for their success lie in the unique flavor and convenience of their
+      products.<br>
+      Shin Ramyun, the product that has come to define Korean ramyun is increasing its popularity worldwide. It is a
+      global product and a brand on its own with a growing popularity from consumers worldwide.<br>
+      It’s as simple as boiling water in a pot, adding the noodle and soup packages, and waiting for 4 to 5 minutes.
+      <br>
+      Voilá! You have a delicious noodle soup ready for you to enjoy!
+    </p><br>
+  </div>
+  <div id="How" class="Section">
+    <h2 id="HowTo">How to Prepare</h2>
+    <h3 id="Direction">Shin Ramyun Cooking Direction</h3>
+    <div id="CenterVideo">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpF_atYlo5E" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen id="video"></iframe>
+    </div>
+    <br><br><br>
+
+    <div id="SectionOne">
+      <div id="StoveTop">
+        <h3>Cooking Directions – Stove Top</h3>
+        <p><strong><em>1. Boiling water</em></strong></p>
+        <p>Boil 550 mL (about 2 1/3 cups) of water. Add noodles, soup base, and vegetable mix.</p>
+        <p><strong><em>2. Cooking noodles</em></strong></p>
+        <p>Cook for 4-5 minutes, stirring occasionally.</p>
+        <p><strong><em>3. Enjoy!</em></strong></p>
+        <p>Remove from heat and serve.</p>
+      </div>
+
+      <div id="StoveImg">
+        <img src="Pictures/Stove.png" width="240">
+      </div>
+    </div>
+
+    <div id="SectionOne">
+      <div id="Microwave">
+        <h3>Cooking Directions – Microwave</h3>
+        <p><strong><em>1. Put ingredients</em></strong></p>
+        <p>Put soup base and vegetable mix into a microwaveable bowl, then add noodles on top.</p>
+        <p><strong><em>2. Pour water</em></strong></p>
+        <p>Pour 470 mL (about 2 cups) of room temperature water.</p>
+        <p><strong><em>3. Cooking Noodles</em></strong></p>
+        <p>Place a microwaveable cover on the bowl. Cook for 7 minutes.<br>When using hot water, cook for 4 minutes.</p>
+      </div>
+      <div id="MicrowaveImg">
+        <img src="Pictures/Microwave.jpg" width="240">
+      </div>
+    </div>
+    <br><br><br>
+  </div>
+
+  <div id="NutriFacts" class="Section">
+    <h2 id="NutritionFacts">Nutrition Facts</h2><br>
+    <img id="NutritionImage" src="Pictures/NutritionFacts.jpg" width="240">
+    <br><br>
+  </div>
+
+  <form id="form" method="get" action="/index.html">
+    <p id="FormHeader"><strong>Want to receive promos and special offers? Type in your email address to be
+        updated!</strong></p>
+    <input name="email" id="email" type="email" placeholder="Type a valid email address here" size="50"><br><br>
+    <div id="newButton"></div>
+    <button id="submit" type="submit">Sign me up!</button>
+  </form>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
